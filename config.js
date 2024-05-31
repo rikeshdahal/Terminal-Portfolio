@@ -117,7 +117,7 @@ const config = {
             "That's so good to hear! I'm glad😍😍😍"
         ]
     },
-    "about": "🎓 Aspiring software engineer with strong foundation in computer science and engineering, gained through BE degree program and hands-on experience with various technologies. (Graduating July 2024) \n 🌇 Proficient in MERN stack, data structures and algorithms, SQL, and Google Cloud Platform. Demonstrated expertise in these technologies through successful projects and 300+ day badge on LeetCode. \n 📚 Active member of tech community, serving as lead for multiple organizations including GDSC, CodeChef Chapter, and Algoders Community. Contributed to growth and success of these organizations through leadership and technical skills. \n 💻 Constantly seeking opportunities to grow and improve skills, with long-term goal of becoming a software development engineer. As a Google Venkat Scholar, demonstrated commitment to excellence and potential to succeed in tech industry.",
+    "about": "Hello! My name is Rikesh Dahal, and although I would prefer it if you called me Mr. Mad Hacker, I'm from Sinamangal Kathmandu. I'm night owl and a big fan of Technology. I'm currently a Patan College student pursuing a BCA. Let me now describe what I do. I work in a variety of fields, including Web Development, App Development, Game Development, 3D Modeling and Animation, Graphic Design, and Ethical Hacking.Fun fact:- In General, Programmers don't have girlfriends, but I do;)",
     "social": [
         {
             "title": "Github",
