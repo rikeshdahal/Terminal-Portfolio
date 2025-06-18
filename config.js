@@ -1,101 +1,117 @@
-
 const config = {
-
     "help": [
         {
             "title": "help",
-            "description": "for a list of commands(add flags '-d' for commands description)",
-            "info": ["help or ls command gives the list of commands","add '-d' flag for description of all commands also","write command after help to get info about that specific command like 'help typing'"]
+            "description": "Lists all the cool commands you can try, hazur! Add '-d' to see what each one does.",
+            "info": [
+                "Type 'help' or 'ls' to see all available commands.",
+                "Use '-d' flag for a detailed description of each command.",
+                "Try 'help <command>' (like 'help kimi') to learn about a specific command."
+            ]
         },
         {
             "title": "clear",
-            "description": "to clear the terminal",
-            "info": ["clear or cls command clears the terminal"]
+            "description": "Clears the terminal screen for a fresh start, kasto ramailo!",
+            "info": ["Use 'clear' or 'cls' to wipe the terminal clean."]
         },
         {
             "title": "about",
-            "description": "to learn more about me",
-            "info": ["use about command to learn more about me"]
+            "description": "Get to know me better, hazur! My passions and quirks await!",
+            "info": ["Type 'about' to discover more about who I am."]
         },
         {
             "title": "social",
-            "description": "to see my social links (add flags '-l' for links and '-d' for detailed results)",
-            "info": ["use social command to see my social links","add '-l' flag for links and '-d' flag for detailed results"]
+            "description": "Check out my social media vibes! Use '-l' for links or '-d' for juicy details.",
+            "info": [
+                "Type 'social' to see my social media profiles.",
+                "Add '-l' for just the links or '-d' for extra stats like followers."
+            ]
         },
         {
             "title": "projects",
-            "description": "to see my projects",
-            "info": ["use projects command to see my projects"]
+            "description": "Explore my awesome projects, each one a labor of love!",
+            "info": ["Use 'projects' to see the cool stuff I've built."]
         },
         {
             "title": "blogs",
-            "description": "to see my recent blogs",
-            "info": ["use blogs command to see my recent blogs"]
+            "description": "Read my latest blog posts, fresh from my mind!",
+            "info": ["Type 'blogs' to check out my recent blog posts."]
         },
         {
             "title": "contact",
-            "description": "to enquire about my services",
-            "info": ["use enquire command to enquire about my services"]
+            "description": "Want to chat, hazur? Reach out to me directly!",
+            "info": ["Use 'contact' to get my email and LinkedIn details."]
         },
         {
             "title": "cheer",
-            "description": "to appreciate my work",
-            "info": ["use cheer command to appreciate my work"]
+            "description": "Show some love for my work, kasto ramailo feeling!",
+            "info": ["Type 'cheer' to send me some appreciation vibes!"]
         },
         {
             "title": "repos",
-            "description": "to see my github repositories",
-            "info": ["use repos command to see my github repositories"]
+            "description": "Dive into my GitHub repos, where the code magic happens!",
+            "info": ["Use 'repos' to see my GitHub repositories."]
         },
         {
             "title": "ipconfig",
-            "description": "to see your IP details",
-            "info": ["use ipconfig command to see your IP details"]
+            "description": "Curious about your IP details? Let's find out!",
+            "info": ["Type 'ipconfig' to see your network info."]
         },
         {
             "title": "github",
-            "description": "to see my github stats",
-            "info": ["use github command to see my github stats"]
+            "description": "Check my GitHub stats, hazur! Repos, followers, and more!",
+            "info": ["Use 'github' to view my GitHub profile stats."]
         },
         {
             "title": "contributors",
-            "description": "to see all the contributors",
-            "info": ["use contributors command to see all the contributors"]
+            "description": "Meet the awesome folks who helped build this, dhanyabad sabailai!",
+            "info": ["Type 'contributors' to see everyone who contributed."]
         },
         {
             "title": "download",
-            "description": "to download my pdf resume",
-            "info": ["use download command to download my pdf resume"]
+            "description": "Grab my resume PDF with just one click!",
+            "info": ["Use 'download' to get my resume in PDF format."]
         },
         {
             "title": "calc",
-            "description": "to evaluate an expression, for eg: (2 + 3)",
-            "info": ["use calc command to evaluate an expression","for eg: write 'calc 2+6*5/3'"]
+            "description": "Crunch numbers like a pro! Try simple math like '2 + 3'.",
+            "info": [
+                "Use 'calc' to evaluate math expressions.",
+                "Example: 'calc 2+6*5/3' for quick calculations."
+            ]
         },
         {
             "title": "experience",
-            "description": "to see my work experience",
-            "info": ["use experience command to see my work experience"]
+            "description": "See where I've worked and what I've learned along the way!",
+            "info": ["Type 'experience' to check out my work history."]
         },
         {
             "title": "history",
-            "description": "shows the last 10 valid commands performed, use --clear flag to clear the history",
-            "info": ["use history command to show your last 10 commands history","use --clear flag to clear the history","use history {id} command to run command of that id in your history"]
+            "description": "Peek at your last 10 commands or clear them with '--clear'.",
+            "info": [
+                "Use 'history' to see your last 10 valid commands.",
+                "Add '--clear' to reset the history.",
+                "Try 'history <id>' to rerun a specific command by its ID."
+            ]
         },
         {
             "title": "skills",
-            "description": "to see my skills",
-            "info": ["use skills command to see my skills"]
+            "description": "Discover what I’m good at, from coding to leadership!",
+            "info": ["Type 'skills' to see my technical and other skills."]
         },
         {
             "title": "typing",
-            "description": "shows typing animation status",
-            "info": ["use typing command to see typing animation status","Turn typing animation on and off by adding -on or -off flags respectively","Also u can write a number(in ms) to set typing custom animation speed"]
+            "description": "Control the typing animation speed or turn it on/off, kasto cool!",
+            "info": [
+                "Use 'typing' to check the typing animation status.",
+                "Add '-on' or '-off' to enable or disable the animation.",
+                "Type a number (in ms) to set a custom animation speed."
+            ]
         },
         {
             "title": "reset",
-            "description": "to reload site",
-            "info": ["use reset command to to reload site"]
+            "description": "Refresh the site for a clean slate, hazur!",
+            "info": ["Use 'reset' to reload the site."]
         }
     ],
     "terminal": {
@@ -105,19 +121,19 @@ const config = {
     },
     "blogs": [
         {
-            "site": "Website",
-            "url": "https://rikeshdahal.com.np"
+            "site": "My Blog",
+            "url": "https://hackerblogg.onrender.com/blog-detail/getting-started-with-game-development"
         }
     ],
     "cheer": {
         "responseArray": [
-            "Thank you! It makes my day😊😊😊",
-            "It is great to hear that way!😁😁😁",
-            "I would love to take credit😂😂😂",
-            "That's so good to hear! I'm glad😍😍😍"
+            "Aww, hazur, timro love le mero din banayo 😊😊😊",
+            "Kasto ramailo! Timro support le dil khusi bhayo 😁😁😁",
+            "Haha, maile credit linchu hai 😉😂😂",
+            "Wah, timro words le mero man ta rangin bhayo 😍😍😍"
         ]
     },
-    "about": "Hello! My name is Rikesh Dahal, and although I would prefer it if you called me Mr. Mad Hacker, I'm from Sinamangal Kathmandu. I'm night owl and a big fan of Technology. I'm currently a Patan College student pursuing a BCA. Let me now describe what I do. I work in a variety of fields, including Web Development, App Development, Game Development, 3D Modeling and Animation, Graphic Design, and Ethical Hacking.Fun fact:- In General, Programmers don't have girlfriends, but I do;)",
+    "about": "Namaste, hazur! Mero naam Rikesh Dahal ho, but you can call me Mr. Mad Hacker 😎. I’m from Sinamangal, Kathmandu, a night owl who’s crazy about tech! I’m studying BCA at Patan College and love diving into Web Development, App Development, Game Development, 3D Modeling, Animation, Graphic Design, and Ethical Hacking. Fun fact: Programmers bhaneko girlfriend hudaina bhanchan, but ma ta lucky chu 😉 Kasto ramailo, hoina?",
     "social": [
         {
             "title": "Github",
@@ -126,31 +142,29 @@ const config = {
         {
             "title": "LinkedIn",
             "link": "https://www.linkedin.com/in/rikeshdahal",
-            "connections": "50+"
+            "connections": "500+"
         },
         {
-            "title": "tiktok",
-            "link": "https://www.tiktok.com/mrmadhacker",
-            "followera": "500+"
-        },
-
+            "title": "TikTok",
+            "link": "https://www.tiktok.com/@mrmadhacker",
+            "followers": "500+"
+        }
     ],
     "projects": [
-    
         {
             "title": "Ripple",
             "link": "https://github.com/rikeshdahal/ripple",
-            "description": "The website that lets you add a unique touch to your user experience! With ripple, you can create a ripple effect on mouse hover that adds a visually engaging element to your website. Whether you're looking to add a subtle touch of interactivity or want to create eye-catching effect, Ripple is the perfect for you. So why wait? Head over to our website and start creating your own ripples today!"
+            "description": "A fun website that adds a cool ripple effect when you hover your mouse! Perfect for making your site pop with interactive vibes. Try it out and create your own ripples, hazur!"
         },
         {
             "title": "Window Updating Prank Website",
-            "link": "https://github.com/rikeshdahal/Window Updating Prank Website",
-            "description": "With just a few clicks, you can create a fake Windows update screen that will trick your friends and family into thinking their computer is undergoing a critical update. Watch as they panic and scramble to save their work, only to realize that they've been pranked."
+            "link": "https://github.com/rikeshdahal/Window-Updating-Prank-Website",
+            "description": "Trick your friends with a fake Windows update screen! Watch them panic as they think their PC is updating. Kasto ramailo prank, hoina?"
         },
         {
-            "title": "Touch Typing practice Keyboards",
-            "link": "https://github.com/rikeshdahal/Touch Typing practice Keyboards",
-            "description": "The website that helps you improve your typing skills and increase your speed and accuracy! With our easy-to-use platform, you can practice touch typing on the keyboard and master the art of typing without looking at the keys. So if you're ready to take your typing skills to the next level, head over to our Touch Typing Keyboard website and start practicing today!"
+            "title": "Touch Typing Practice Keyboards",
+            "link": "https://github.com/rikeshdahal/Touch-Typing-Practice-Keyboards",
+            "description": "A website to level up your typing skills! Practice touch typing, boost your speed, and become a keyboard ninja. Start typing like a pro today, hazur!"
         }
     ],
     "contact": {
@@ -159,16 +173,16 @@ const config = {
     "experience": [
         {
             "title": "Unity Game Development",
-            "description": "▪️3 years of game development experence."
+            "description": "4 years of crafting awesome games with love and code!"
         }
     ],
     "skills": [
         {
-            "title": "Technical skills are: ",
-            "description": "Pyhton, C, C#, MySQL, PHP, Linux, UI/UX  "
+            "title": "Tech Skills",
+            "description": "Python, C, C#, MySQL, PHP, Linux, UI/UX, Django, Data Engineering, Game Development"
         },
         {
-            "title": "Other Skills are:",
+            "title": "Other Superpowers",
             "description": "Problem Solving, Team Leadership, Community Management, Team Building"
         }
     ],
@@ -178,6 +192,7 @@ const config = {
         "skills": "Frontend, Backend, Cloud",
         "shell": "zsh",
         "languages": "Python, Javascript, C, C#, HTML/CSS, SQL"
-    },
+    }
 }
+
 export default config
